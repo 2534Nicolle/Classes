@@ -1,0 +1,29 @@
+package AnotherOne;
+
+public class ObjFornecedor {
+
+	public static void main(String[] args) {
+		Fornecedor fornecedor = new Fornecedor ();
+		
+        fornecedor.setRazaoSocial("Sprite da galera");
+        fornecedor.setNomeFantasia("Spi");
+        fornecedor.setCnpj("79.041.635/0001-50");
+        fornecedor.setEndereco("Rua Antonella de Andrade Carosella");
+        fornecedor.setFone("99652387");
+        fornecedor.setEmail("seijinho@gmail.com");
+        fornecedor.setInscricaoEstadual("123.456.789.112");
+        fornecedor.setID(8649);
+
+		System.out.println("----- FORNECEDOR -----");
+		System.out.println(fornecedor.getRazaoSocial());
+		System.out.println(fornecedor.getNomeFantasia());
+		System.out.println(fornecedor.getCnpj());
+		System.out.println(fornecedor.getEndereco());
+		System.out.println(fornecedor.getFone());
+		System.out.println(fornecedor.getEmail());
+		System.out.println(fornecedor.getInscricaoEstadual());
+		System.out.println(fornecedor.getID());
+
+	}
+
+}
