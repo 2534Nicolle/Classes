@@ -1,0 +1,22 @@
+package AnotherOne;
+
+public class ObjPessoa2 {
+
+	public static void main(String[] args) {
+		Pessoa2 trabalhador = new Pessoa2 ();
+		
+		trabalhador.setNome("Jonas Brother");
+		trabalhador.setPermissao("Concedida");
+		trabalhador.setUsuario("Joninhas");
+		trabalhador.setID(5483);
+		trabalhador.setSenha(85936214);
+		
+		System.out.println("----- TRABALHADOR -----");
+		System.out.println(trabalhador.getNome());
+		System.out.println(trabalhador.getPermissao());
+		System.out.println(trabalhador.getUsuario());
+		System.out.println(trabalhador.getID());
+		System.out.println(trabalhador.getSenha());
+	}
+
+}
