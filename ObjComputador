@@ -1,0 +1,57 @@
+package AnotherOne;
+
+public class ObjComputador {
+
+	public static void main(String[] args) {
+		Computador monitor = new Computador ();
+		Computador teclado = new Computador ();
+		Computador computador = new Computador ();
+		Computador mouse = new Computador ();
+		
+		monitor.setMarca("Acer");
+		monitor.setPreco("R$899,00");
+		monitor.setCor("Preto");
+		monitor.setModelo("QG270S3b");
+		
+		System.out.println("----- MONITOR -----");
+		System.out.println(monitor.getMarca());
+		System.out.println(monitor.getPreco());
+		System.out.println(monitor.getCor());
+		System.out.println(monitor.getModelo());
+		
+		teclado.setMarca("Redragon Dragonborn");
+		teclado.setPreco("R$R$246,00");
+		teclado.setCor("Preto");
+		teclado.setModelo("Gamer");
+		
+		System.out.println("----- TECLADO -----");
+		System.out.println(teclado.getMarca());
+		System.out.println(teclado.getPreco());
+		System.out.println(teclado.getCor());
+		System.out.println(teclado.getModelo());
+		
+		computador.setMarca("TOP SYSTEM");
+		computador.setPreco("R$2615,99");
+		computador.setCor("Preto");
+		computador.setModelo("Ryzen 5");
+		
+		System.out.println("----- COMPUTADOR -----");
+		System.out.println(computador.getMarca());
+		System.out.println(computador.getPreco());
+		System.out.println(computador.getCor());
+		System.out.println(computador.getModelo());
+		
+		mouse.setMarca("Logitech G");
+		mouse.setPreco("R$309,90");
+		mouse.setCor("Preto");
+		mouse.setModelo("Gamer Logitech G502 HERO");
+		
+		System.out.println("----- MOUSE -----");
+		System.out.println(mouse.getMarca());
+		System.out.println(mouse.getPreco());
+		System.out.println(mouse.getCor());
+		System.out.println(mouse.getModelo());
+	
+	}
+
+}
